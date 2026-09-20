@@ -22,7 +22,7 @@ Let's say all projects will be in the same root directory: betaflight, ardupilot
 Set an env variables that points to that root directory:
 
 ```
-export REPOSITORIES_ROOT="~/projects/"
+export REPOSITORIES_ROOT="$HOME/projects/"
 ```
 
 then
@@ -47,7 +47,7 @@ git submodule update --init --recursive
 Copy everything from this package's `betaflight-files/` directory into the Betaflight repository, preserving paths.
 
 ```sh
-cp -R "$REPOSITORIES_ROOT/minipix-betaflight/betaflight-files/." "$REPOSITORIES_ROOT/betaflight"
+cp -v -R "$REPOSITORIES_ROOT/minipix-betaflight/betaflight-files/." "$REPOSITORIES_ROOT/betaflight"
 ```
 
 ## 4. Install the exact ARM compiler used by Betaflight 4.1.1
