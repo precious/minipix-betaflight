@@ -1,0 +1,9 @@
+Betaflight 4.1.1 / RadioLink Mini Pix reproducibility package
+
+Essential added files:
+  betaflight-files/src/main/target/MINIPIX/target.h
+  betaflight-files/src/main/target/MINIPIX/target.c
+  betaflight-files/src/main/target/MINIPIX/target.mk
+  betaflight-files/src/link/stm32_flash_minipix.ld
+  betaflight-files/make/mcu/STM32F4.patch
+  betaflight-files/tools/make_minipix_apj.py
